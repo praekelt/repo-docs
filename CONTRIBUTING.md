@@ -18,6 +18,14 @@ Try keep pull requests a reasonable size. Use your own judgement about what "rea
 means, but put yourself in the reviewer's shoes and ask yourself whether you'd be annoyed
 at being asked to review your PR.
 
+## JIRA, Commit Messages and Branch Names
+If the feature you are working on is based on a JIRA ticket, ensure that your commit messages
+begin with the ticket number. For example, `FOO-445: Fixed a bug with the thing.`
+
+Also ensure that your branch name contains the ticket number as well. For example, `feature/FOO-445_fix-the-thing`.
+
+This is to ensure JIRA integration works smoothly and tracks your commits to GitHub.
+
 ## Coding Standards
 We strive to produce code that looks like it has been written by one mind. As such, we follow
 various standards which inform the style and structure of how our code is written. Everyone is
